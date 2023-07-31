@@ -1,3 +1,4 @@
+holzzz
 import java.util.Scanner;
 
 
@@ -11,15 +12,15 @@ public class GimnasioApp {
         System.out.println("Bienvenido(a) a XYZ Gym");
 
         while (true) {
-            System.out.println("\nMenú de opciones:");
+            System.out.println("\nMenÃº de opciones:");
             System.out.println("1. Registrar nuevo miembro activo");
             System.out.println("2. Registrar nuevo miembro inactivo");
-            System.out.println("3. Consultar información de miembro");
+            System.out.println("3. Consultar informaciÃ³n de miembro");
             System.out.println("4. Reservar una clase");
             System.out.println("5. Ayuda de empleado");
-            System.out.println("6. Consultar información de empleado");
+            System.out.println("6. Consultar informaciÃ³n de empleado");
             System.out.println("7. Salir");
-            System.out.print("Ingrese el número de la opción que desea: ");
+            System.out.print("Ingrese el nÃºmero de la opciÃ³n que desea: ");
 
             int opcion = scanner.nextInt();
             scanner.nextLine(); 
@@ -35,7 +36,7 @@ public class GimnasioApp {
                     if (miembro != null) {
                         miembro.mostrarInformacion();
                     } else {
-                        System.out.println("Primero registre un miembro para consultar la información.");
+                        System.out.println("Primero registre un miembro para consultar la informaciÃ³n.");
                     }
                     break;
                 case 4:
@@ -54,16 +55,16 @@ public class GimnasioApp {
                     if (empleadoAyuda != null) {
                         empleadoAyuda.mostrarInformacion();
                     } else {
-                        System.out.println("El empleado de ayuda aún no ha sido registrado.");
+                        System.out.println("El empleado de ayuda aÃºn no ha sido registrado.");
                     }
                     break;
                 case 7:
-                    System.out.println("¡Gracias por usar XYZ Gym! ¡Hasta luego!");
+                    System.out.println("Â¡Gracias por usar XYZ Gym! Â¡Hasta luego!");
                     scanner.close();
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Opción inválida. Ingrese un número del 1 al 7.");
+                    System.out.println("OpciÃ³n invÃ¡lida. Ingrese un nÃºmero del 1 al 7.");
             }
         }
     }
