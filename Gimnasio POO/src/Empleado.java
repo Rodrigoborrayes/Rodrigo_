@@ -1,5 +1,3 @@
-/* Comentario */
-
 import java.util.Scanner;
 class Empleado {
     private String nombre;
