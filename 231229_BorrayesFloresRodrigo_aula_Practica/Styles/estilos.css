@@ -1,0 +1,246 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+#nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer_in, .footer_in2 {
+    width: 374px;
+    height: 38px;
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#contenedor1 {
+    justify-content: center;
+    display: flex;
+}
+
+#_logo {
+    margin-right: 500px;
+    background-color: #000000;
+    width: 195px;
+    height: 40px;
+    opacity: 1;
+    text-align: left;
+    top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.pres{
+    margin-left: 138px;
+    margin-right: 138px;
+}
+#part_one {
+    display: flex;
+    width: 100%;
+    height: 481px;
+    top: 170px;
+
+}
+
+.nav-two-in {
+    display: grid;
+    font: normal normal 300 18px/22px Lato;
+    color: #707070;
+    opacity: 1;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
+
+#footer_main {
+    display: flex;
+    justify-content: center;
+    background: #707070;
+    opacity: 1;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.titulog {
+    font: normal normal 300 18px/22px Lato;
+    color: #000000;
+    opacity: 1;
+}
+
+#contenedor2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
+.Letras2 {
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin-top: 55%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 80px;
+    font: normal normal 300 14px/17px Lato;
+}
+
+#part_two {
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    top: 559px;
+    left: 138px;
+    width: 308px;
+    height: 240px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+._card-part-two {
+    top: 566px;
+    left: 145px;
+    width: 294px;
+    height: 186px;
+    align-items: flex-end;
+    display: flex;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.nav-two {
+    font: normal normal 900 24px/29px Lato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+#part_tree {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+._card-part-tree {
+    width: 308px;
+    height: 240px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 20px;
+}
+
+._part-tree {
+    width: 294px;
+    height: 186px;
+    background: #F2F2F2;
+    border-radius: 20px;
+}
+
+.footer_in2 {
+    top: 1708px;
+    left: 592px;
+    width: 135px;
+    height: 19px;
+    text-align: left;
+    font: normal normal 300 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+#contenido_footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes {
+    width: 30px;
+    height: 30px;
+    background-color: #E3E3E3;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+#header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#opciones {
+    text-align: end;
+}
+
+#_logo a {
+    color: #F2F2F2;
+}
+
+h1 {
+    max-width: 420px;
+    width: 420px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 900 40px/48px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+#_text {
+    width: 409px;
+    height: 72px;
+    text-align: left;
+    font: normal normal 300 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+input {
+    width: 210px;
+    height: 40px;
+    color: #F2F2F2;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.plataformas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px 7px;
+    font: normal normal 300 14px/17px;
+    color: #707070;
+    opacity: 1;
+}
